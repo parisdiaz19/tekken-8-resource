@@ -10,18 +10,21 @@ export default function CharacterList() {
   );
   return (
     <div className="text-white container">
-      <div className="text-center">
+      <div>
         <p>
           It is time to get started. No more playing games. This is the real
           game.
         </p>
+        <br></br>
         <p>Take your Tekken experience to the next level</p>
+        <br></br>
         <p>
           Dive into the intricate world of this iconic fighting game and gain a
           competitive edge by mastering frame data. Our comprehensive guide
           provides in-depth insights into Tekken 8’s frame data mechanics,
           allowing you to make informed decisions during every match.
         </p>
+        <br></br>
         <p>
           Discover the precise advantage and disadvantage of every move, perfect
           your combos, and optimize your defensive strategies. With Tekken 8
@@ -34,16 +37,19 @@ export default function CharacterList() {
         {sortedCharacters.map((character, index) => (
           <Link
             key={index}
-            href="/characters/[character]" as={`/characters/${character.name.toLowerCase()}`}
+            href="/characters/[character]"
+            as={`/characters/${character.name.toLowerCase()}`}
           >
-            <li className="flex-20 flex-col justify-center items-center max-w-[10rem]">
-              <Image
-                className="rounded-full w-full max-h-[10rem] object-contain  bg-gradient-to-r from-red-800 to-indigo-950 border-white h-auto"
-                src={character.picture}
-                width={100}
-                height={100}
-                alt={character.name}
-              ></Image>
+            <li className="flex-20 flex-col justify-center items-center max-w-[10rem] border-[3px] border-solid border-white rounded-md hover:border-blue-500 hover:opacity-[0.5] transition-all duration-300">
+              <div className="">
+                <Image
+                  className="w-full max-h-[10rem] object-contain bg-gradient-to-r from-red-800 to-indigo-950 h-auto"
+                  src={character.picture}
+                  width={100}
+                  height={100}
+                  alt={character.name}
+                />
+              </div>
               <div className="flex items-center justify-center">
                 <strong className="text-center">{character.name}</strong>
               </div>

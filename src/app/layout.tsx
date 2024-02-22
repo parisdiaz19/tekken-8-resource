@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Tekken 8 Resources | Improve Your Game",
   description: "Resource site for all things Tekken 8",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({

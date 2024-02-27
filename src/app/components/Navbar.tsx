@@ -14,6 +14,12 @@ const Navbar = () => {
         />
       </div>
       <div className="flex items-center justify-center my-[2rem]">
+        <ul className="flex flex-row gap-[2rem] justify-center items-center">
+          <Link href="/">Home</Link>
+          <Link href="/additional-resources">Additional Resources</Link>
+        </ul>
+      </div>
+      <div className="flex items-center justify-center my-[2rem]">
         <h1 className="text-4xl">Tekken 8 Resource Library</h1>
       </div>
     </header>

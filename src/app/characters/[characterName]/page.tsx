@@ -18,6 +18,8 @@ import TwoPlusFour from "@/app/images/input-notations/24.png";
 import ThreePlusFour from "@/app/images/input-notations/34.png";
 import Link from "next/link";
 
+import Navbar from "@/app/components/Navbar";
+
 interface characterDetailsParams {
   characterName: string;
 }

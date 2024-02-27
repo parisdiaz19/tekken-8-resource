@@ -3,13 +3,24 @@ import React from "react";
 import { CharacterData } from "../data/CharacterData";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function CharacterList() {
   const sortedCharacters = [...CharacterData].sort((a, b) =>
     a.name.localeCompare(b.name)
   );
+
+  const staggerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        duration: 0.5,
+      },
+    },
+  };
   return (
-    <div className="text-white container">
+    <motion.div className="text-white container">
       <div>
         <p>
           It is time to get started. No more playing games. This is the real
@@ -33,30 +44,35 @@ export default function CharacterList() {
           ranks to become a true Tekken champion.
         </p>
       </div>
-      <ul className="flex items-center justify-center flex-wrap gap-3 mt-[4rem]">
-        {sortedCharacters.map((character, index) => (
-          <Link
-            key={index}
-            href="/characters/[character]"
-            as={`/characters/${character.name.toLowerCase()}`}
-          >
-            <li className="flex-20 flex-col justify-center items-center max-w-[10rem] border-[3px] border-solid border-white rounded-md hover:border-blue-500 hover:opacity-[0.5] transition-all duration-300">
-              <div className="">
-                <Image
-                  className="w-full max-h-[10rem] object-contain bg-gradient-to-r from-red-800 to-indigo-950 h-auto"
-                  src={character.picture}
-                  width={100}
-                  height={100}
-                  alt={character.name}
-                />
-              </div>
-              <div className="flex items-center justify-center">
-                <strong className="text-center">{character.name}</strong>
-              </div>
-            </li>
-          </Link>
-        ))}
-      </ul>
-    </div>
+      <motion.div initial="hidden" animate="visible" variants={staggerVariants}>
+        <ul className="flex items-center justify-center flex-wrap gap-3 mt-[4rem]">
+          {sortedCharacters.map((character, index) => (
+            <Link
+              key={index}
+              href="/characters/[character]"
+              as={`/characters/${character.name.toLowerCase()}`}
+            >
+              <motion.li
+                variants={staggerVariants}
+                className="flex-20 flex-col justify-center items-center max-w-[10rem] border-[3px] border-solid border-white rounded-md hover:border-blue-500 hover:opacity-[0.5] transition-all duration-300"
+              >
+                <div className="">
+                  <Image
+                    className="w-full max-h-[10rem] object-contain bg-gradient-to-r from-red-800 to-indigo-950 h-auto"
+                    src={character.picture}
+                    width={100}
+                    height={100}
+                    alt={character.name}
+                  />
+                </div>
+                <div className="flex items-center justify-center">
+                  <strong className="text-center">{character.name}</strong>
+                </div>
+              </motion.li>
+            </Link>
+          ))}
+        </ul>
+      </motion.div>
+    </motion.div>
   );
 }

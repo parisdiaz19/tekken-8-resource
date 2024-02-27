@@ -3,7 +3,7 @@ exports.__esModule = true;
 var link_1 = require("next/link");
 var react_1 = require("react");
 var image_1 = require("next/image");
-var banner_jpg_1 = require("@/app/images/banner.jpg");
+var banner_jpg_1 = require("../images/banner.jpg");
 var Navbar = function () {
     return (react_1["default"].createElement("header", null,
         react_1["default"].createElement("div", null,

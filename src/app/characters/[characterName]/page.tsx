@@ -2,21 +2,6 @@ import React from "react";
 import { CharacterData } from "../../data/CharacterData";
 import renderCellContent from "./RenderCell";
 import Image from "next/image";
-
-import One from "@/app/images/input-notations/1.png";
-import Two from "@/app/images/input-notations/2.png";
-import Three from "@/app/images/input-notations/3.png";
-import Four from "@/app/images/input-notations/4.png";
-
-
-import OnePlusTwo from "@/app/images/input-notations/12.png";
-import OnePlusThree from "@/app/images/input-notations/13.png";
-import OnePlusFour from "@/app/images/input-notations/14.png";
-
-import TwoPlusThree from "@/app/images/input-notations/23.png";
-import TwoPlusFour from "@/app/images/input-notations/24.png";
-
-import ThreePlusFour from "@/app/images/input-notations/34.png";
 import Link from "next/link";
 
 

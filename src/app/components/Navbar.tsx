@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 
-import BannerImage from "@/app/images/banner.jpg";
+import BannerImage from "../images/banner.jpg";
 
 const Navbar = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 import { FC } from "react";
 import Image from "next/image";
 import { GetStaticPaths, GetStaticProps } from "next";
-import { CharacterData } from "@/app/data/CharacterData";
+import { CharacterData } from "../data/CharacterData";
 import { useRouter } from "next/router";
 import Navbar from "../components/Navbar";
 

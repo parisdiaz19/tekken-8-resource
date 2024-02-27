@@ -1,5 +1,5 @@
 import React from "react";
-import { AdditionalResourceData } from "../data/AdditionalResourceData";
+import { AdditionalResourceData } from "../data/dist/AdditionalResourceData";
 import Navbar from "../components/Navbar";
 
 export default function AdditionalResources() {

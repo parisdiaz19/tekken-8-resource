@@ -41,6 +41,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Kazuya",
@@ -50,6 +51,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Jun",
@@ -59,6 +61,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Paul",
@@ -68,6 +71,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Law",
@@ -77,6 +81,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "King",
@@ -86,6 +91,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Lars",
@@ -115,6 +121,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Jack 8",
@@ -124,6 +131,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Nina",
@@ -133,6 +141,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Asuka",
@@ -142,6 +151,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Leroy",
@@ -151,6 +161,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Lili",
@@ -160,6 +171,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Hwoarang",
@@ -169,6 +181,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Bryan",
@@ -202,6 +215,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Azucena",
@@ -211,6 +225,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Raven",
@@ -220,6 +235,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Yoshimitsu",
@@ -229,6 +245,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Steve",
@@ -238,6 +255,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punishment: [],
+    video: "",
   },
   {
     name: "Dragunov",
@@ -247,6 +265,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Leo",
@@ -256,6 +275,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Shaheen",
@@ -265,6 +285,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Kuma",
@@ -274,6 +295,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Feng",
@@ -283,6 +305,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Panda",
@@ -292,6 +315,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Zafina",
@@ -301,6 +325,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Lee",
@@ -310,6 +335,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Alisa",
@@ -319,6 +345,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Devil Jin",
@@ -328,6 +355,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Victor",
@@ -337,6 +365,7 @@ export const CharacterData = [
     weaknesses: [],
     gameplan: [],
     punsihment: [],
+    video: "",
   },
   {
     name: "Reina",

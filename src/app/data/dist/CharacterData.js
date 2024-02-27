@@ -41,7 +41,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Kazuya",
@@ -50,7 +51,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Jun",
@@ -59,7 +61,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Paul",
@@ -68,7 +71,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Law",
@@ -77,7 +81,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "King",
@@ -86,7 +91,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Lars",
@@ -115,7 +121,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Jack 8",
@@ -124,7 +131,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Nina",
@@ -133,7 +141,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Asuka",
@@ -142,7 +151,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Leroy",
@@ -151,7 +161,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Lili",
@@ -160,7 +171,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Hwoarang",
@@ -169,7 +181,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Bryan",
@@ -201,7 +214,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Azucena",
@@ -210,7 +224,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Raven",
@@ -219,7 +234,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Yoshimitsu",
@@ -228,7 +244,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Steve",
@@ -237,7 +254,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punishment: []
+        punishment: [],
+        video: ""
     },
     {
         name: "Dragunov",
@@ -246,7 +264,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Leo",
@@ -255,7 +274,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Shaheen",
@@ -264,7 +284,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Kuma",
@@ -273,7 +294,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Feng",
@@ -282,7 +304,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Panda",
@@ -291,7 +314,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Zafina",
@@ -300,7 +324,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Lee",
@@ -309,7 +334,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Alisa",
@@ -318,7 +344,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Devil Jin",
@@ -327,7 +354,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Victor",
@@ -336,7 +364,8 @@ exports.CharacterData = [
         strengths: [],
         weaknesses: [],
         gameplan: [],
-        punsihment: []
+        punsihment: [],
+        video: ""
     },
     {
         name: "Reina",
